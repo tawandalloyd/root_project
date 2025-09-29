@@ -48,3 +48,6 @@ Commands to check our duckdb database to see if our tables are in
 10. duckdb C:/Users/TawandaCharuka/Documents/RootProject/db/root_dwh.duckdb replace with database your path
     - once the duckdb cli opens run .tables (to view our tables in schema)
     - run select * from TRIPS; to select and see data in the tables.
+
+## Require assistance to setup project
+    - Contact Tawanda @ 084 463 5021/ tawandalloydcharuka@gmail.com 
