@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: src_duckdb 
+    database: root_dwh 
+    schema: main
+    tables:
+      - name: TRIPS  # Your existing trips table
+        description: "Table containing trip data"
+      - name: weather  # Your existing weather table
+        description: "Table containing weather data"

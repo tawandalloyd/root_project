@@ -1,0 +1,45 @@
+[0m16:31:13.737569 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024BF586D190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024BF5D01290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024BF5CB8C10>]}
+
+
+============================== 16:31:13.737569 | 14ac60a0-7e7e-4ac3-bfde-3d1953839b5b ==============================
+[0m16:31:13.737569 [info ] [MainThread]: Running with dbt=1.10.13
+[0m16:31:13.737569 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt init', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'printer_width': '80', 'use_experimental_parser': 'False', 'empty': 'None', 'indirect_selection': 'eager', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\TawandaCharuka\\.dbt', 'static_parser': 'True', 'write_json': 'True'}
+[0m16:31:13.961493 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\TawandaCharuka\.dbt
+[0m16:31:54.054934 [debug] [MainThread]: Starter project path: C:\Users\TawandaCharuka\Documents\RootProject\CitiBike\citibiketrips\Lib\site-packages\dbt\include\starter_project
+[0m16:31:54.158228 [info ] [MainThread]: 
+Your new dbt project "stage_premiums" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:31:54.159235 [info ] [MainThread]: Setting up your profile.
+[0m16:32:00.340568 [info ] [MainThread]: Profile stage_premiums written to C:\Users\TawandaCharuka\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m16:32:00.341568 [debug] [MainThread]: Command `dbt init` succeeded at 16:32:00.341568 after 46.66 seconds
+[0m16:32:00.341568 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024BF008DD50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024BF00CFB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024BF00CFB90>]}
+[0m16:32:00.343080 [debug] [MainThread]: Flushing usage events
+[0m16:32:01.732706 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:56:45.194659 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000214FC8BD3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000214FC8BBED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000214FC8BB0D0>]}
+
+
+============================== 16:56:45.198104 | 97823bb0-e604-4d2d-8521-5a549d6325f4 ==============================
+[0m16:56:45.198104 [info ] [MainThread]: Running with dbt=1.10.13
+[0m16:56:45.199103 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt compile --select trips_weather', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'printer_width': '80', 'empty': 'False', 'quiet': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\TawandaCharuka\\.dbt', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m16:56:45.200066 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\TawandaCharuka\Documents\RootProject\transform\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:56:45.202069 [debug] [MainThread]: Command `dbt compile` failed at 16:56:45.202069 after 0.08 seconds
+[0m16:56:45.202069 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000214FC913E10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000214FC913CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000214FC926050>]}
+[0m16:56:45.203602 [debug] [MainThread]: Flushing usage events
+[0m16:56:53.612160 [debug] [MainThread]: An error was encountered while trying to flush usage events
