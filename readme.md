@@ -25,7 +25,8 @@ This guide explains how to set up and run the project on a new machine. The proj
     con = duckdb.connect('C:/Users/TawandaCharuka/Documents/RootProject/db/root_dwh.duckdb')
     replace C:/Users/TawandaCharuka/Documents/RootProject/db/ with your db folder path inside project folder and  leave the root_dwh name as is.
 5. Add aws keys provided into .env file
-6.In root project Create your venv using commands below
+
+6. In root project Create your venv using commands below
     i. python -m venv <venv name>
     ii. activate venv with command  <venv name>\Scripts\activate (if running scripts is disabled on your system use this command Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process)
     iii. pip install -r requirements.txt
